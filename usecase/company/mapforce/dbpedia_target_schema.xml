@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<companies xsi:noNamespaceSchemaLocation="file:///C:/Users/dthai_000/OneDrive%20-%20Grundeigentuemer%20Versicherung%20VVaG/Weiterbildung_PC/20200/Eclipse/Exam/20200%20-%20WDI%20-%20Project%20Data%20and%20Code%20-%202020/usecase/company/mapforce/target_schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<companies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<company>
 		<id>http://dbpedia.org/resource/%c3%80_la_table_de_spanghero</id>
 		<name>à la table de spanghero</name>
