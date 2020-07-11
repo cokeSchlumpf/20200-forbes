@@ -94,7 +94,7 @@ public class Company_IdentityResolution_Main_FullContact {
 		//TODO: adjust the parameter to define the threshold of the matching rule
 		LinearCombinationMatchingRule<Company, Attribute> matchingRule = new LinearCombinationMatchingRule<>(0.5);
 
-		// activate logging
+		// activate logging foo bar
 		// matchingRule.activateDebugReport("usecase/company/output/forbes_2_fullcontact_log.csv", 100000, gsTest);
 
 		// Comparators for linear combination rule
