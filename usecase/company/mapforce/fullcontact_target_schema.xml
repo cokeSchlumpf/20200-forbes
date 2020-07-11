@@ -5,7 +5,9 @@
 		<name>BBMG</name>
 		<country>United States</country>
 		<city>Brooklyn</city>
-		<keypeople/>
+		<keypeople>
+			<name>Raphael Bemporad</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_2</id>
@@ -50,7 +52,9 @@
 		<founded>1883-01-01</founded>
 		<country>United States</country>
 		<city>Pittsburgh</city>
-		<keypeople/>
+		<keypeople>
+			<name>John Pitcairn</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_8</id>
@@ -111,7 +115,12 @@
 		<founded>1932-01-01</founded>
 		<country>France</country>
 		<city>Boulogne Billancourt Cedex</city>
-		<keypeople/>
+		<keypeople>
+			<name>Fernand Renault</name>
+			<name>Louis Renault</name>
+			<name>Marcel Renault</name>
+			<name>MARTIN Claire</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_18</id>
@@ -288,7 +297,9 @@
 		<founded>2013-01-01</founded>
 		<country>United States</country>
 		<city>North Chicago</city>
-		<keypeople/>
+		<keypeople>
+			<name>Bets Lillo</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_45</id>
@@ -353,7 +364,11 @@
 		<founded>1997-01-01</founded>
 		<country>Switzerland</country>
 		<city>Allschwil</city>
-		<keypeople/>
+		<keypeople>
+			<name>Martine Clozel</name>
+			<name>Thomas Widmann</name>
+			<name>Walter Fischli</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_54</id>
@@ -685,6 +700,7 @@
 		<city>Cupertino</city>
 		<keypeople>
 			<name>Ron Wayne</name>
+			<name>Steve Jobs</name>
 			<name>Steve Wozniak</name>
 		</keypeople>
 	</company>
@@ -780,7 +796,9 @@
 		<founded>1947-01-01</founded>
 		<country>Canada</country>
 		<city>Calgary</city>
-		<keypeople/>
+		<keypeople>
+			<name>Richard MAINDRON</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_116</id>
@@ -864,7 +882,9 @@
 		<founded>1971-01-01</founded>
 		<country>United States</country>
 		<city>Arlington</city>
-		<keypeople/>
+		<keypeople>
+			<name>Stav Braun</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_128</id>
@@ -970,7 +990,9 @@
 		<name>Becton Dickinson</name>
 		<country>United States</country>
 		<city>Franklin Lakes</city>
-		<keypeople/>
+		<keypeople>
+			<name>Marc Zemel</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_144</id>
@@ -1017,7 +1039,9 @@
 		<founded>1977-01-01</founded>
 		<country>India</country>
 		<city>Mumbai</city>
-		<keypeople/>
+		<keypeople>
+			<name>Anand Bhaskar, PCC</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_151</id>
@@ -1109,7 +1133,9 @@
 		<founded>1979-01-01</founded>
 		<country>United States</country>
 		<city>Marlborough</city>
-		<keypeople/>
+		<keypeople>
+			<name>John E. Abele</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_165</id>
@@ -1125,7 +1151,9 @@
 		<founded>1870-01-01</founded>
 		<country>United Kingdom</country>
 		<city>London</city>
-		<keypeople/>
+		<keypeople>
+			<name>Ryan Moynagh</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_167</id>
@@ -1335,7 +1363,9 @@
 		<founded>1995-01-01</founded>
 		<country>France</country>
 		<city>Évry</city>
-		<keypeople/>
+		<keypeople>
+			<name>Rafael Orbaneja</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_197</id>
@@ -1370,7 +1400,9 @@
 		<name>Celgene Corporation</name>
 		<founded>1986-01-01</founded>
 		<city>Summit</city>
-		<keypeople/>
+		<keypeople>
+			<name>Robert Hariri</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_202</id>
@@ -1652,7 +1684,9 @@
 		<founded>1999-01-01</founded>
 		<country>United Kingdom</country>
 		<city>Cambridge</city>
-		<keypeople/>
+		<keypeople>
+			<name>Rohan Cole</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_243</id>
@@ -2103,6 +2137,7 @@
 		<city>Torino</city>
 		<keypeople>
 			<name>Integrated Concepts Vehicles</name>
+			<name>Motorious Motors, llc</name>
 			<name>Motorious, Inc.</name>
 		</keypeople>
 	</company>
@@ -2120,7 +2155,10 @@
 		<founded>2004-01-01</founded>
 		<country>United States</country>
 		<city>Menlo Park</city>
-		<keypeople/>
+		<keypeople>
+			<name>HessKiyaafa BirikiSindaa</name>
+			<name>Mark Zuckerberg</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_310</id>
@@ -2674,7 +2712,9 @@
 		<founded>1939-01-01</founded>
 		<country>United States</country>
 		<city>Palo Alto</city>
-		<keypeople/>
+		<keypeople>
+			<name>David Packard</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_390</id>
@@ -2791,7 +2831,9 @@
 		<founded>1911-01-01</founded>
 		<country>United States</country>
 		<city>Armonk</city>
-		<keypeople/>
+		<keypeople>
+			<name>Stanley S. Litow</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_408</id>
@@ -2865,7 +2907,9 @@
 		<founded>2002-01-01</founded>
 		<country>United States</country>
 		<city>New York</city>
-		<keypeople/>
+		<keypeople>
+			<name>Chuck Sacco</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_418</id>
@@ -2932,12 +2976,16 @@
 		<founded>1983-01-01</founded>
 		<country>United States</country>
 		<city>Mountain View</city>
-		<keypeople/>
+		<keypeople>
+			<name>Scott Cook</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_427</id>
 		<name>Intuitive Surgical</name>
-		<keypeople/>
+		<keypeople>
+			<name>Fred Moll</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_428</id>
@@ -3292,7 +3340,10 @@
 		<name>LinkedIn</name>
 		<country>United States</country>
 		<city>Mountain View</city>
-		<keypeople/>
+		<keypeople>
+			<name>Allen Blue</name>
+			<name>Jean-Luc Vaillant</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_481</id>
@@ -3331,7 +3382,9 @@
 		<founded>1948-01-01</founded>
 		<country>United States</country>
 		<city>Milwaukee</city>
-		<keypeople/>
+		<keypeople>
+			<name>Vidya Gowda</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_487</id>
@@ -3384,12 +3437,17 @@
 		<founded>1983-01-01</founded>
 		<country>United States</country>
 		<city>San Jose</city>
-		<keypeople/>
+		<keypeople>
+			<name>FRED BECK</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_494</id>
 		<name>Maxis</name>
-		<keypeople/>
+		<keypeople>
+			<name>Jeff Braun</name>
+			<name>Will Wright</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_495</id>
@@ -3597,6 +3655,7 @@
 		<city>New York</city>
 		<keypeople>
 			<name>Lisa Weiner</name>
+			<name>Joan Conley</name>
 		</keypeople>
 	</company>
 	<company>
@@ -3662,7 +3721,10 @@
 		<founded>1992-01-01</founded>
 		<country>United States</country>
 		<city>Sunnyvale</city>
-		<keypeople/>
+		<keypeople>
+			<name>Dave Hitz</name>
+			<name>Jeffrey Boni</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_536</id>
@@ -3670,7 +3732,9 @@
 		<founded>1997-01-01</founded>
 		<country>United States</country>
 		<city>Los Gatos</city>
-		<keypeople/>
+		<keypeople>
+			<name>Reed Hastings</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_537</id>
@@ -3765,7 +3829,9 @@
 		<name>Novatek</name>
 		<country>United States</country>
 		<city>Provo</city>
-		<keypeople/>
+		<keypeople>
+			<name>H. Tracy</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_550</id>
@@ -3805,7 +3871,10 @@
 		<id>fullcontact_555</id>
 		<name>Nvidia</name>
 		<founded>1993-01-01</founded>
-		<keypeople/>
+		<keypeople>
+			<name>Chris Malachowsky</name>
+			<name>Jen-Hsun Huang</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_556</id>
@@ -3926,6 +3995,7 @@
 		<city>Oakland</city>
 		<keypeople>
 			<name>Jon Kraft</name>
+			<name>Tim Westergren</name>
 			<name>Will Glaser</name>
 		</keypeople>
 	</company>
@@ -4088,7 +4158,9 @@
 		<founded>1968-01-01</founded>
 		<country>South Korea</country>
 		<city>Seoul</city>
-		<keypeople/>
+		<keypeople>
+			<name>Park Tae-Joon</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_597</id>
@@ -4151,7 +4223,9 @@
 		<name>Proximus</name>
 		<country>Belgium</country>
 		<city>Brussels</city>
-		<keypeople/>
+		<keypeople>
+			<name>Evgeny Popravko</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_606</id>
@@ -4210,7 +4284,10 @@
 		<founded>1985-01-01</founded>
 		<country>United States</country>
 		<city>San Diego</city>
-		<keypeople/>
+		<keypeople>
+			<name>Bob Forutan</name>
+			<name>Franklin P. Antonio</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_614</id>
@@ -4322,7 +4399,9 @@
 		<founded>1919-01-01</founded>
 		<country>United States</country>
 		<city>Wolcott</city>
-		<keypeople/>
+		<keypeople>
+			<name>Vatsal Shah</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_630</id>
@@ -4394,7 +4473,11 @@
 		<founded>1999-01-01</founded>
 		<country>United States</country>
 		<city>San Francisco</city>
-		<keypeople/>
+		<keypeople>
+			<name>Marc Benioff</name>
+			<name>Parker Harris</name>
+			<name>Rebeca Enonchong</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_640</id>
@@ -4411,7 +4494,9 @@
 		<founded>1988-01-01</founded>
 		<country>United States</country>
 		<city>Milpitas</city>
-		<keypeople/>
+		<keypeople>
+			<name>Sanjay Mehrotra</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_643</id>
@@ -4551,7 +4636,9 @@
 		<name>Sherwin-Williams</name>
 		<country>United States</country>
 		<city>Cleveland</city>
-		<keypeople/>
+		<keypeople>
+			<name>Edward Williams</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_664</id>
@@ -4611,7 +4698,9 @@
 		<id>fullcontact_672</id>
 		<name>Signature Bank</name>
 		<founded>2006-01-01</founded>
-		<keypeople/>
+		<keypeople>
+			<name>Bryan Duncan</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_673</id>
@@ -4863,7 +4952,9 @@
 		<name>Swatch Group</name>
 		<country>Switzerland</country>
 		<city>Biel</city>
-		<keypeople/>
+		<keypeople>
+			<name>Nicolas G. Hayek</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_710</id>
@@ -5075,7 +5166,10 @@
 		<founded>2003-01-01</founded>
 		<country>United States</country>
 		<city>Palo Alto</city>
-		<keypeople/>
+		<keypeople>
+			<name>John Dixon</name>
+			<name>Marc Tarpenning</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_739</id>
@@ -5354,7 +5448,10 @@
 		<founded>1862-01-01</founded>
 		<country>United States</country>
 		<city>Omaha</city>
-		<keypeople/>
+		<keypeople>
+			<name>John J Koraleski</name>
+			<name>Mohan Rajagopalan</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_778</id>
@@ -5370,7 +5467,9 @@
 		<founded>1907-01-01</founded>
 		<country>United States</country>
 		<city>Atlanta</city>
-		<keypeople/>
+		<keypeople>
+			<name>Frank Romeo, SPHR</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_780</id>
@@ -5384,7 +5483,9 @@
 		<name>United States Steel Corporation</name>
 		<country>United States</country>
 		<city>Pittsburgh</city>
-		<keypeople/>
+		<keypeople>
+			<name>Elbert H. Gary</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_782</id>
@@ -5513,7 +5614,12 @@
 		<founded>2004-01-01</founded>
 		<country>United States</country>
 		<city>Arlington</city>
-		<keypeople/>
+		<keypeople>
+			<name>Edouard Bugnion</name>
+			<name>Edward Wang</name>
+			<name>Mendel Rosenblum</name>
+			<name>Scott Devine</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_800</id>
@@ -5692,8 +5798,11 @@
 		<keypeople>
 			<name>Angel Fuentes</name>
 			<name>Avishai Abrahami</name>
+			<name>Dr. Eric Johnson</name>
 			<name>Giora Kaplan</name>
+			<name>Giora Kaplan (Gig)</name>
 			<name>Nadav Abrahami</name>
+			<name>Richard Oldale</name>
 		</keypeople>
 	</company>
 	<company>
@@ -5705,8 +5814,11 @@
 		<keypeople>
 			<name>Angel Fuentes</name>
 			<name>Avishai Abrahami</name>
+			<name>Dr. Eric Johnson</name>
 			<name>Giora Kaplan</name>
+			<name>Giora Kaplan (Gig)</name>
 			<name>Nadav Abrahami</name>
+			<name>Richard Oldale</name>
 		</keypeople>
 	</company>
 	<company>
@@ -5784,7 +5896,10 @@
 		<founded>1994-01-01</founded>
 		<country>United States</country>
 		<city>Sunnyvale</city>
-		<keypeople/>
+		<keypeople>
+			<name>Adam Cahan</name>
+			<name>David Filo</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_837</id>
@@ -5802,7 +5917,9 @@
 		<founded>1983-01-01</founded>
 		<country>Kuwait</country>
 		<city>Kuwait</city>
-		<keypeople/>
+		<keypeople>
+			<name>nasim akhter</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_840</id>
@@ -5870,7 +5987,9 @@
 		<founded>1996-01-01</founded>
 		<country>United States</country>
 		<city>Bellevue</city>
-		<keypeople/>
+		<keypeople>
+			<name>Mike Harrington</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_851</id>
@@ -6045,7 +6164,11 @@
 		<id>fullcontact_882</id>
 		<name>Deep Space Industries</name>
 		<city>Moffett Field</city>
-		<keypeople/>
+		<keypeople>
+			<name>Christopher Cassell</name>
+			<name>James Wolff</name>
+			<name>Jim Luebke</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_883</id>
@@ -6241,7 +6364,9 @@
 		<id>fullcontact_916</id>
 		<name>Armada Skis</name>
 		<founded>2002-01-01</founded>
-		<keypeople/>
+		<keypeople>
+			<name>Boyd Easley</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_918</id>
@@ -6257,7 +6382,9 @@
 		<founded>1998-01-01</founded>
 		<country>United States</country>
 		<city>Mountain View</city>
-		<keypeople/>
+		<keypeople>
+			<name>Sergey Brin</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_920</id>
@@ -6284,7 +6411,9 @@
 		<founded>2002-01-01</founded>
 		<country>United States</country>
 		<city>New York</city>
-		<keypeople/>
+		<keypeople>
+			<name>Chuck Sacco</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_925</id>
@@ -6306,7 +6435,9 @@
 		<founded>2012-01-01</founded>
 		<country>United States</country>
 		<city>New York</city>
-		<keypeople/>
+		<keypeople>
+			<name>Brad Keywell</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_928</id>
@@ -6322,6 +6453,7 @@
 		<city>Mountain View</city>
 		<keypeople>
 			<name>Jeff Zira</name>
+			<name>Julia Hu</name>
 		</keypeople>
 	</company>
 	<company>
@@ -6407,7 +6539,10 @@
 		<founded>2001-01-01</founded>
 		<country>United States</country>
 		<city>San Francisco</city>
-		<keypeople/>
+		<keypeople>
+			<name>Adam Kleinberg</name>
+			<name>Ben Hazzard</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_945</id>
@@ -6434,7 +6569,9 @@
 	<company>
 		<id>fullcontact_948</id>
 		<name>New Media Strategies</name>
-		<keypeople/>
+		<keypeople>
+			<name>Pete Snyder</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_949</id>
@@ -6526,6 +6663,7 @@
 		<country>United States</country>
 		<city>San Francisco</city>
 		<keypeople>
+			<name>David Huard</name>
 			<name>Kevin Rose</name>
 		</keypeople>
 	</company>
@@ -6631,6 +6769,7 @@
 		<city>Carlsbad</city>
 		<keypeople>
 			<name>Jennifer Michelsen</name>
+			<name>Joe Croft</name>
 			<name>Matt Michelsen</name>
 		</keypeople>
 	</company>
@@ -6640,7 +6779,9 @@
 		<founded>2003-01-01</founded>
 		<country>Singapore</country>
 		<city>Singapore</city>
-		<keypeople/>
+		<keypeople>
+			<name>George Gu</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_982</id>
@@ -6669,8 +6810,11 @@
 		<keypeople>
 			<name>Angel Fuentes</name>
 			<name>Avishai Abrahami</name>
+			<name>Dr. Eric Johnson</name>
 			<name>Giora Kaplan</name>
+			<name>Giora Kaplan (Gig)</name>
 			<name>Nadav Abrahami</name>
+			<name>Richard Oldale</name>
 		</keypeople>
 	</company>
 	<company>
@@ -6727,7 +6871,9 @@
 		<id>fullcontact_994</id>
 		<name>Hearts on Fire</name>
 		<founded>1996-01-01</founded>
-		<keypeople/>
+		<keypeople>
+			<name>maria nomikos</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_995</id>
@@ -6777,7 +6923,10 @@
 		<name>Zeitgeist Films</name>
 		<country>United States</country>
 		<city>New York</city>
-		<keypeople/>
+		<keypeople>
+			<name>Emily Russo</name>
+			<name>Nancy Gerstman</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1003</id>
@@ -6866,7 +7015,12 @@
 		<name>ZipRecruiter</name>
 		<country>United States</country>
 		<city>Santa Monica</city>
-		<keypeople/>
+		<keypeople>
+			<name>Ian Siegel</name>
+			<name>Joe Edmonds</name>
+			<name>Will Redd</name>
+			<name>Willis Redd</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1016</id>
@@ -6903,7 +7057,9 @@
 		<founded>2004-01-01</founded>
 		<country>United States</country>
 		<city>Panama City Beach</city>
-		<keypeople/>
+		<keypeople>
+			<name>Bud Finlaw</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1021</id>
@@ -6979,7 +7135,9 @@
 	<company>
 		<id>fullcontact_1032</id>
 		<name>NewsBlur</name>
-		<keypeople/>
+		<keypeople>
+			<name>Samuel Clay</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1033</id>
@@ -7007,7 +7165,9 @@
 		<founded>2009-01-01</founded>
 		<country>United States</country>
 		<city>Walnut Creek</city>
-		<keypeople/>
+		<keypeople>
+			<name>Christina Seelye</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1037</id>
@@ -7077,7 +7237,9 @@
 		<founded>1997-01-01</founded>
 		<country>United States</country>
 		<city>Arlington Heights</city>
-		<keypeople/>
+		<keypeople>
+			<name>Steve Sarowitz</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1048</id>
@@ -7124,7 +7286,10 @@
 		<name>Plextronics</name>
 		<country>United States</country>
 		<city>Pittsburgh</city>
-		<keypeople/>
+		<keypeople>
+			<name>Andrew W. Hannah</name>
+			<name>Richard D. McCullough</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1054</id>
@@ -7233,7 +7398,9 @@
 		<founded>1999-01-01</founded>
 		<country>Denmark</country>
 		<city>Copenhagen</city>
-		<keypeople/>
+		<keypeople>
+			<name>Søren Alminde</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1070</id>
@@ -7247,7 +7414,10 @@
 		<name>Biomatrica</name>
 		<country>United States</country>
 		<city>San Diego</city>
-		<keypeople/>
+		<keypeople>
+			<name>Judy Müller-Cohn</name>
+			<name>Rolf Müller</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1072</id>
@@ -7305,6 +7475,7 @@
 		<founded>2008-01-01</founded>
 		<city>Ames</city>
 		<keypeople>
+			<name>Dan Murray</name>
 			<name>John-Paul Cross</name>
 		</keypeople>
 	</company>
@@ -7348,7 +7519,9 @@
 		<founded>2007-01-01</founded>
 		<country>United States</country>
 		<city>Seattle</city>
-		<keypeople/>
+		<keypeople>
+			<name>John Gabbert</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1087</id>
@@ -7374,7 +7547,9 @@
 		<name>Stone Soft</name>
 		<country>Finland</country>
 		<city>Helsinki</city>
-		<keypeople/>
+		<keypeople>
+			<name>Hannu Turunen</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1091</id>
@@ -7382,7 +7557,9 @@
 		<founded>2007-01-01</founded>
 		<country>United States</country>
 		<city>San Francisco</city>
-		<keypeople/>
+		<keypeople>
+			<name>Roman Stanek</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1092</id>
@@ -7445,7 +7622,11 @@
 		<founded>2005-01-01</founded>
 		<country>India</country>
 		<city>Bangalore</city>
-		<keypeople/>
+		<keypeople>
+			<name>Aseem Marwaha</name>
+			<name>Sandeep Sehgal</name>
+			<name>Shireesh Jayashetty</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1101</id>
@@ -7475,6 +7656,7 @@
 		<country>Singapore</country>
 		<city>Singapore</city>
 		<keypeople>
+			<name>Bradley Priest</name>
 			<name>Cameron Priest</name>
 			<name>Carl Thompson</name>
 		</keypeople>
@@ -7552,7 +7734,9 @@
 		<founded>1993-01-01</founded>
 		<country>United States</country>
 		<city>Plano</city>
-		<keypeople/>
+		<keypeople>
+			<name>James Smithey</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1116</id>
@@ -7573,7 +7757,9 @@
 		<id>fullcontact_1118</id>
 		<name>Hisense Group</name>
 		<founded>1969-01-01</founded>
-		<keypeople/>
+		<keypeople>
+			<name>James Z. Jian</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1119</id>
@@ -7581,7 +7767,11 @@
 		<founded>2011-01-01</founded>
 		<country>United States</country>
 		<city>San Francisco</city>
-		<keypeople/>
+		<keypeople>
+			<name>Greg Hazel</name>
+			<name>Micha Benoliel</name>
+			<name>Stanislav Shalunov</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1120</id>
@@ -7594,7 +7784,9 @@
 	<company>
 		<id>fullcontact_1121</id>
 		<name>Ngmoco</name>
-		<keypeople/>
+		<keypeople>
+			<name>Joe Keene</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1122</id>
@@ -7614,7 +7806,12 @@
 		<founded>2010-01-01</founded>
 		<country>United States</country>
 		<city>Seattle</city>
-		<keypeople/>
+		<keypeople>
+			<name>Rajesh Muppalla</name>
+			<name>Sanjay Parthasarathy</name>
+			<name>Sridhar Venkatesh</name>
+			<name>Satya Kaliki</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1125</id>
@@ -7623,7 +7820,9 @@
 	<company>
 		<id>fullcontact_1126</id>
 		<name>Spin Master</name>
-		<keypeople/>
+		<keypeople>
+			<name>Anton Rabie</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1127</id>
@@ -7641,7 +7840,10 @@
 		<name>Starmind International AG</name>
 		<country>Switzerland</country>
 		<city>Kusnacht</city>
-		<keypeople/>
+		<keypeople>
+			<name>Marc Vontobel</name>
+			<name>Pascal Kaufmann</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1130</id>
@@ -7649,7 +7851,10 @@
 		<founded>2011-01-01</founded>
 		<country>Netherlands</country>
 		<city>Amsterdam</city>
-		<keypeople/>
+		<keypeople>
+			<name>Floris van der Veen</name>
+			<name>Thijs van der Veen</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1131</id>
@@ -7657,7 +7862,9 @@
 		<founded>2003-01-01</founded>
 		<country>United States</country>
 		<city>Tampa</city>
-		<keypeople/>
+		<keypeople>
+			<name>Omar Soliman</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1132</id>
@@ -7686,7 +7893,9 @@
 		<id>fullcontact_1135</id>
 		<name>800score</name>
 		<founded>1999-01-01</founded>
-		<keypeople/>
+		<keypeople>
+			<name>Sean Selinger</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1136</id>
@@ -7695,7 +7904,9 @@
 		<country>United States</country>
 		<city>Detroit</city>
 		<keypeople>
+			<name>Edward Norton</name>
 			<name>Jeffrey Wolfe</name>
+			<name>Robert Wolfe</name>
 		</keypeople>
 	</company>
 	<company>
@@ -7790,7 +8001,9 @@
 		<founded>2014-01-01</founded>
 		<country>Hong Kong</country>
 		<city>Hong Kong</city>
-		<keypeople/>
+		<keypeople>
+			<name>Alastair Hoyne</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1151</id>
@@ -7819,7 +8032,9 @@
 		<name>Philadelphia Media Network: Philly.com, Inquirer and Daily News</name>
 		<country>United States</country>
 		<city>Philadelphia</city>
-		<keypeople/>
+		<keypeople>
+			<name>Keith Wallace</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1155</id>
@@ -7850,6 +8065,7 @@
 		<country>United States</country>
 		<city>Portland</city>
 		<keypeople>
+			<name>Charlie Kawasaki</name>
 			<name>Shem Zakem</name>
 		</keypeople>
 	</company>
@@ -7858,7 +8074,9 @@
 		<name>SYMPHONY INFOSPACE INDIA PRIVATE LIMITED</name>
 		<country>United States</country>
 		<city>Mountain View</city>
-		<keypeople/>
+		<keypeople>
+			<name>Romesh T Wadhwani</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1160</id>
@@ -7872,7 +8090,9 @@
 		<founded>2011-01-01</founded>
 		<country>United States</country>
 		<city>Palo Alto</city>
-		<keypeople/>
+		<keypeople>
+			<name>Oded Horovitz</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1162</id>
@@ -7989,7 +8209,9 @@
 		<name>Rehab|neXt</name>
 		<country>United States</country>
 		<city>Redwood City</city>
-		<keypeople/>
+		<keypeople>
+			<name>Kjell Fornander</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1180</id>
@@ -8016,7 +8238,9 @@
 		<founded>2013-01-01</founded>
 		<country>Singapore</country>
 		<city>Singapore</city>
-		<keypeople/>
+		<keypeople>
+			<name>Hemang Lashkary</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1184</id>
@@ -8058,7 +8282,9 @@
 	<company>
 		<id>fullcontact_1190</id>
 		<name>Carvana</name>
-		<keypeople/>
+		<keypeople>
+			<name>Ben Huston</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1191</id>
@@ -8067,6 +8293,7 @@
 		<country>United States</country>
 		<city>San Francisco</city>
 		<keypeople>
+			<name>Dean Ramadan</name>
 			<name>Mark Spera</name>
 		</keypeople>
 	</company>
@@ -8080,7 +8307,9 @@
 		<founded>1990-01-01</founded>
 		<country>United States</country>
 		<city>Los Angeles</city>
-		<keypeople/>
+		<keypeople>
+			<name>Grant McCullagh</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1194</id>
@@ -8233,12 +8462,19 @@
 		<name>Japan Tobacco</name>
 		<country>Japan</country>
 		<city>Tokyo</city>
-		<keypeople/>
+		<keypeople>
+			<name>Mitsuomi Koizumi</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1222</id>
 		<name>Glam Media</name>
-		<keypeople/>
+		<keypeople>
+			<name>Dianna Mullins</name>
+			<name>Ernie Cicogna</name>
+			<name>Fernando Ruarte</name>
+			<name>Raj Narayan</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1223</id>
@@ -8375,7 +8611,9 @@
 		<founded>2008-01-01</founded>
 		<country>United Kingdom</country>
 		<city>Sutton</city>
-		<keypeople/>
+		<keypeople>
+			<name>Ian Osborne</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1243</id>
@@ -8457,7 +8695,9 @@
 		<founded>1991-01-01</founded>
 		<country>Netherlands</country>
 		<city>Amsterdam</city>
-		<keypeople/>
+		<keypeople>
+			<name>Erez Halewa</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1256</id>
@@ -8472,7 +8712,9 @@
 		<founded>2000-01-01</founded>
 		<country>United States</country>
 		<city>Andover</city>
-		<keypeople/>
+		<keypeople>
+			<name>Peter Schroer</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1258</id>
@@ -8664,7 +8906,9 @@
 		<founded>2004-01-01</founded>
 		<country>United States</country>
 		<city>Stillwater</city>
-		<keypeople/>
+		<keypeople>
+			<name>Thomas Tull</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1288</id>
@@ -8687,7 +8931,10 @@
 		<name>Instructure</name>
 		<country>United States</country>
 		<city>Salt Lake City</city>
-		<keypeople/>
+		<keypeople>
+			<name>Brian Whitmer</name>
+			<name>Devlin Daley</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1291</id>
@@ -8807,7 +9054,9 @@
 		<country>United States</country>
 		<city>San Francisco</city>
 		<keypeople>
+			<name>Alvir Navin</name>
 			<name>Ashwin Navin</name>
+			<name>David Harrison</name>
 		</keypeople>
 	</company>
 	<company>
@@ -9083,7 +9332,9 @@
 		<founded>1975-01-01</founded>
 		<country>Spain</country>
 		<city>A Coruña</city>
-		<keypeople/>
+		<keypeople>
+			<name>Amancio Gaona</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1352</id>
@@ -9103,12 +9354,17 @@
 		<name>First Choice Emergency Room</name>
 		<country>United States</country>
 		<city>Lewisville</city>
-		<keypeople/>
+		<keypeople>
+			<name>Jack Novak</name>
+			<name>Richard Covert</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1355</id>
 		<name>Magic Logix</name>
-		<keypeople/>
+		<keypeople>
+			<name>Hassan Bawab</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1356</id>
@@ -9179,6 +9435,7 @@
 		<country>United States</country>
 		<city>Braintree</city>
 		<keypeople>
+			<name>Cal Brown</name>
 			<name>Stan Liachev</name>
 		</keypeople>
 	</company>
@@ -9193,7 +9450,9 @@
 		<name>Attentio</name>
 		<country>Belgium</country>
 		<city>Brussels</city>
-		<keypeople/>
+		<keypeople>
+			<name>Per SiljubergsÃ¥sen</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1369</id>
@@ -9201,7 +9460,10 @@
 		<founded>2008-01-01</founded>
 		<country>United States</country>
 		<city>New York</city>
-		<keypeople/>
+		<keypeople>
+			<name>Alex Kolundzija</name>
+			<name>John Borthwick</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1370</id>
@@ -9216,7 +9478,9 @@
 		<founded>2004-01-01</founded>
 		<country>United States</country>
 		<city>New York</city>
-		<keypeople/>
+		<keypeople>
+			<name>Thibaud Elziere</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1372</id>
@@ -9271,7 +9535,9 @@
 		<name>Exorbyte</name>
 		<country>United States</country>
 		<city>Portland</city>
-		<keypeople/>
+		<keypeople>
+			<name>Benno Nieswand</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1381</id>
@@ -9288,7 +9554,9 @@
 		<name>OhioHealth</name>
 		<country>United States</country>
 		<city>Columbus</city>
-		<keypeople/>
+		<keypeople>
+			<name>Karen Morrison</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1383</id>
@@ -9384,7 +9652,9 @@
 		<founded>2009-01-01</founded>
 		<country>United States</country>
 		<city>Minneapolis</city>
-		<keypeople/>
+		<keypeople>
+			<name>William Wolfram</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1398</id>
@@ -9441,7 +9711,10 @@
 		<name>VJ MOVEMENT</name>
 		<country>Netherlands</country>
 		<city>Amsterdam</city>
-		<keypeople/>
+		<keypeople>
+			<name>Arend Jan van den Beld</name>
+			<name>Thomas Loudon</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1407</id>
@@ -9552,7 +9825,9 @@
 		<name>FireSprite</name>
 		<country>United Kingdom</country>
 		<city>Liverpool</city>
-		<keypeople/>
+		<keypeople>
+			<name>Stuart Tilley</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1424</id>
@@ -9562,7 +9837,11 @@
 	<company>
 		<id>fullcontact_1425</id>
 		<name>Blue Mobile</name>
-		<keypeople/>
+		<keypeople>
+			<name>Dirk Freise</name>
+			<name>Martin Easter</name>
+			<name>Thorsten Rehling</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1426</id>
@@ -9592,6 +9871,7 @@
 		<country>India</country>
 		<city>Gurgaon</city>
 		<keypeople>
+			<name>Aloke Bajpai</name>
 			<name>Rajnish Kumar</name>
 		</keypeople>
 	</company>
@@ -9618,7 +9898,10 @@
 		<id>fullcontact_1433</id>
 		<name>HouseTrip</name>
 		<founded>2009-01-01</founded>
-		<keypeople/>
+		<keypeople>
+			<name>Junjun Chen</name>
+			<name>Junjun Chen-Bertrand</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1434</id>
@@ -9634,7 +9917,9 @@
 		<founded>2012-01-01</founded>
 		<country>United States</country>
 		<city>Miami</city>
-		<keypeople/>
+		<keypeople>
+			<name>Jaclyn Baumgarten</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1436</id>
@@ -9677,6 +9962,7 @@
 		<id>fullcontact_1442</id>
 		<name>Pinot's Palette Dubuque</name>
 		<keypeople>
+			<name>Craig Ceccanti</name>
 			<name>Kerry Sue Bowman</name>
 		</keypeople>
 	</company>
@@ -9700,7 +9986,9 @@
 		<founded>1901-01-01</founded>
 		<country>United States</country>
 		<city>Seattle</city>
-		<keypeople/>
+		<keypeople>
+			<name>John W. Nordstrom</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1447</id>
@@ -9755,6 +10043,8 @@
 		<founded>2003-01-01</founded>
 		<keypeople>
 			<name>Chris Stolte</name>
+			<name>Christian Chabot</name>
+			<name>Pat Hanrahan</name>
 		</keypeople>
 	</company>
 	<company>
@@ -9774,7 +10064,9 @@
 		<name>GAIN Capital</name>
 		<country>United States</country>
 		<city>New York</city>
-		<keypeople/>
+		<keypeople>
+			<name>Mark Galant</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1459</id>
@@ -9823,6 +10115,7 @@
 		<country>United States</country>
 		<city>Indianapolis</city>
 		<keypeople>
+			<name>Dustin Sapp</name>
 			<name>Kristian Andersen</name>
 			<name>Mike Fitzgerald</name>
 		</keypeople>
@@ -9837,7 +10130,9 @@
 		<founded>2010-01-01</founded>
 		<country>United States</country>
 		<city>Los Angeles</city>
-		<keypeople/>
+		<keypeople>
+			<name>Nova Spivack</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1469</id>
@@ -10015,7 +10310,10 @@
 	<company>
 		<id>fullcontact_1497</id>
 		<name>Skyfire</name>
-		<keypeople/>
+		<keypeople>
+			<name>Erik Swenson</name>
+			<name>Nitin Bhandari</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1498</id>
@@ -10151,7 +10449,9 @@
 		<name>Providence Equity Partners</name>
 		<country>United States</country>
 		<city>Providence</city>
-		<keypeople/>
+		<keypeople>
+			<name>Paul Salem</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1520</id>
@@ -10202,7 +10502,9 @@
 		<founded>1878-01-01</founded>
 		<country>United States</country>
 		<city>Springfield</city>
-		<keypeople/>
+		<keypeople>
+			<name>Susan Toner</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1527</id>
@@ -10313,7 +10615,9 @@
 		<founded>1878-01-01</founded>
 		<country>United States</country>
 		<city>Springfield</city>
-		<keypeople/>
+		<keypeople>
+			<name>Susan Toner</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1544</id>
@@ -10398,7 +10702,10 @@
 		<name>RainStor</name>
 		<country>United States</country>
 		<city>San Francisco</city>
-		<keypeople/>
+		<keypeople>
+			<name>Andy Ben-Dyke</name>
+			<name>Jonathan Teague</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1557</id>
@@ -10468,6 +10775,7 @@
 		<name>Nextel Communications</name>
 		<keypeople>
 			<name>Christopher Rogers</name>
+			<name>Christopher T Rogers</name>
 		</keypeople>
 	</company>
 	<company>
@@ -10736,7 +11044,10 @@
 		<founded>2010-01-01</founded>
 		<country>United States</country>
 		<city>Louisville</city>
-		<keypeople/>
+		<keypeople>
+			<name>John Spiers</name>
+			<name>Kelly Long</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1610</id>
@@ -10791,7 +11102,9 @@
 		<founded>2010-01-01</founded>
 		<country>United States</country>
 		<city>New York</city>
-		<keypeople/>
+		<keypeople>
+			<name>Are Traasdahl</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1618</id>
@@ -10799,7 +11112,9 @@
 		<founded>1952-01-01</founded>
 		<country>United States</country>
 		<city>New York</city>
-		<keypeople/>
+		<keypeople>
+			<name>Daniel J. Edelman</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1619</id>
@@ -10829,7 +11144,9 @@
 		<founded>2008-01-01</founded>
 		<country>Canada</country>
 		<city>Toronto</city>
-		<keypeople/>
+		<keypeople>
+			<name>Graham Smith</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1623</id>
@@ -10878,7 +11195,9 @@
 	<company>
 		<id>fullcontact_1630</id>
 		<name>Metaweb Technologies</name>
-		<keypeople/>
+		<keypeople>
+			<name>Danny Hillis</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1631</id>
@@ -11052,7 +11371,9 @@
 	<company>
 		<id>fullcontact_1656</id>
 		<name>Cobra Beer</name>
-		<keypeople/>
+		<keypeople>
+			<name>Karan Bilimoria</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1657</id>
@@ -11196,6 +11517,7 @@
 		<country>United Kingdom</country>
 		<city>London</city>
 		<keypeople>
+			<name>Errol Damelin</name>
 			<name>Jonty Hurwitz</name>
 		</keypeople>
 	</company>
@@ -11427,7 +11749,9 @@
 	<company>
 		<id>fullcontact_1717</id>
 		<name>Channel Frederator</name>
-		<keypeople/>
+		<keypeople>
+			<name>Fred Seibert</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1718</id>
@@ -11470,7 +11794,9 @@
 	<company>
 		<id>fullcontact_1725</id>
 		<name>John Paul Mitchell Systems</name>
-		<keypeople/>
+		<keypeople>
+			<name>John Paul DeJoria</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1726</id>
@@ -11638,7 +11964,9 @@
 		<founded>1985-01-01</founded>
 		<country>Israel</country>
 		<city>Petah Tiqva</city>
-		<keypeople/>
+		<keypeople>
+			<name>Moshe BenBassat</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1753</id>
@@ -11777,7 +12105,10 @@
 		<founded>2007-01-01</founded>
 		<country>United States</country>
 		<city>Kirkland</city>
-		<keypeople/>
+		<keypeople>
+			<name>Andrew Boulanov</name>
+			<name>Mike Chtchelkonogov</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1773</id>
@@ -11790,7 +12121,9 @@
 		<founded>2001-01-01</founded>
 		<country>United States</country>
 		<city>Billerica</city>
-		<keypeople/>
+		<keypeople>
+			<name>Ted Werth</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1775</id>
@@ -11851,7 +12184,12 @@
 		<founded>2005-01-01</founded>
 		<country>United States</country>
 		<city>Los Angeles</city>
-		<keypeople/>
+		<keypeople>
+			<name>Blake Mallen</name>
+			<name>Nick Sarnicola</name>
+			<name>Robert Watson</name>
+			<name>Ryan Blair</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1784</id>
@@ -11888,7 +12226,9 @@
 		<id>fullcontact_1789</id>
 		<name>Liquid Comics</name>
 		<founded>2005-01-01</founded>
-		<keypeople/>
+		<keypeople>
+			<name>Gotham Chopra</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1790</id>
@@ -11903,7 +12243,10 @@
 		<founded>2009-01-01</founded>
 		<country>United Kingdom</country>
 		<city>London</city>
-		<keypeople/>
+		<keypeople>
+			<name>Demetrios Zoppos</name>
+			<name>Tim Davey</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1792</id>
@@ -11945,7 +12288,9 @@
 		<name>Coveo</name>
 		<country>Canada</country>
 		<city>Quebec</city>
-		<keypeople/>
+		<keypeople>
+			<name>Laurent Simoneau</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1798</id>
@@ -12079,7 +12424,9 @@
 		<founded>1996-01-01</founded>
 		<country>United States</country>
 		<city>Mayfield</city>
-		<keypeople/>
+		<keypeople>
+			<name>Paul Tyma</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1819</id>
@@ -12182,7 +12529,9 @@
 		<founded>2003-01-01</founded>
 		<country>United States</country>
 		<city>Reno</city>
-		<keypeople/>
+		<keypeople>
+			<name>Jarrod Lopiccolo</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1835</id>
@@ -12419,6 +12768,7 @@
 		<country>United States</country>
 		<city>San Ramon</city>
 		<keypeople>
+			<name>David Richards</name>
 			<name>Trevor Thompson</name>
 		</keypeople>
 	</company>
@@ -12429,6 +12779,7 @@
 		<country>United States</country>
 		<city>San Jose</city>
 		<keypeople>
+			<name>Jeff Haynie</name>
 			<name>Nolan Wright</name>
 		</keypeople>
 	</company>
@@ -12452,7 +12803,11 @@
 		<name>Core Security Technologies</name>
 		<country>United States</country>
 		<city>Boston</city>
-		<keypeople/>
+		<keypeople>
+			<name>Emiliano Kargieman</name>
+			<name>Jonatan Altszul</name>
+			<name>Sebastian Muñiz</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1876</id>
@@ -12591,7 +12946,10 @@
 		<founded>2006-01-01</founded>
 		<country>United States</country>
 		<city>Albany</city>
-		<keypeople/>
+		<keypeople>
+			<name>Aditya Singhal</name>
+			<name>Nishant Sinha</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1897</id>
@@ -12605,7 +12963,9 @@
 		<founded>2003-01-01</founded>
 		<country>United States</country>
 		<city>Encino</city>
-		<keypeople/>
+		<keypeople>
+			<name>Dan Richmond</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1899</id>
@@ -12613,7 +12973,9 @@
 		<founded>1993-01-01</founded>
 		<country>United States</country>
 		<city>Marietta</city>
-		<keypeople/>
+		<keypeople>
+			<name>Massoud Alibakhsh</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1900</id>
@@ -12691,7 +13053,9 @@
 		<name>Leadspace</name>
 		<country>United States</country>
 		<city>San Francisco</city>
-		<keypeople/>
+		<keypeople>
+			<name>Amnon Mishor</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1913</id>
@@ -13055,7 +13419,9 @@
 		<founded>2012-01-01</founded>
 		<country>United States</country>
 		<city>New York</city>
-		<keypeople/>
+		<keypeople>
+			<name>Brad Keywell</name>
+		</keypeople>
 	</company>
 	<company>
 		<id>fullcontact_1967</id>
