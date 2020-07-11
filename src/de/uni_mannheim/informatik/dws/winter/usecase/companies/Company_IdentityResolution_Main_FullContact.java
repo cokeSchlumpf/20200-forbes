@@ -70,7 +70,7 @@ public class Company_IdentityResolution_Main_FullContact {
 	 * 		traceFile:	level TRACE	- console/file
 	 * 		
 	 */
-	private static final Logger logger = WinterLogManager.activateLogger("default");
+	private static final Logger logger = WinterLogManager.activateLogger("trace");
 
 	public static void main(String[] args) throws Exception {
 		// Load Forbes
@@ -99,7 +99,7 @@ public class Company_IdentityResolution_Main_FullContact {
 
 		// Comparators for linear combination rule
 		//TODO: un-comment any of the following lines to add comparators to the matching rule
-		// matchingRule.addComparator(new CompanyNameComparatorEqual(), 1.0);
+		 matchingRule.addComparator(new CompanyNameComparatorEqual(), 1.0);
 		// matchingRule.addComparator(new CompanyNameComparatorJaccard(), 1.0);
 		// matchingRule.addComparator(new CompanyNameComparatorLevenshtein(), 1.0);
 		// matchingRule.addComparator(new CompanyNameComparatorLongestTokenEqual(), 1.0);
@@ -121,8 +121,8 @@ public class Company_IdentityResolution_Main_FullContact {
 		matchingRule.normalizeWeights();
 
 		// TODO: (un-)comment the following lines to use different blockers
-		// NoBlocker<Company, Attribute> blocker = new NoBlocker<>();
-		StandardRecordBlocker<Company, Attribute> blocker = new StandardRecordBlocker<>(new CompanyBlockingKeyByFirstCharGenerator());
+		 NoBlocker<Company, Attribute> blocker = new NoBlocker<>();
+		//StandardRecordBlocker<Company, Attribute> blocker = new StandardRecordBlocker<>(new CompanyBlockingKeyByFirstCharGenerator());
 		// SortedNeighbourhoodBlocker<Company, Attribute, Attribute> blocker = new SortedNeighbourhoodBlocker<>(new CompanyBlockingKeyByFirstCharGenerator(), 30);
 
 		// Initialize Matching Engine
@@ -142,7 +142,7 @@ public class Company_IdentityResolution_Main_FullContact {
 		// correspondences = maxWeight.getResult();
 
 		// write the correspondences to the output file
-		new CSVCorrespondenceFormatter().writeCSV(new File("C:/Users/ensel/OneDrive/Documents/GitHub/20200-forbesusecase/company/output/forbes_2_fullcontact_correspondences.csv"), correspondences);
+		new CSVCorrespondenceFormatter().writeCSV(new File("usecase/company/output/forbes_2_fullcontact_correspondences.csv"), correspondences);
 
 		// evaluate your result
 		MatchingEvaluator<Company, Attribute> evaluator = new MatchingEvaluator<>();
