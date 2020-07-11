@@ -142,7 +142,7 @@ public class Company_IdentityResolution_Main_FullContact {
 		// correspondences = maxWeight.getResult();
 
 		// write the correspondences to the output file
-		new CSVCorrespondenceFormatter().writeCSV(new File("usecase/company/output/forbes_2_fullcontact_correspondences.csv"), correspondences);
+		new CSVCorrespondenceFormatter().writeCSV(new File("C:/Users/ensel/OneDrive/Documents/GitHub/20200-forbesusecase/company/output/forbes_2_fullcontact_correspondences.csv"), correspondences);
 
 		// evaluate your result
 		MatchingEvaluator<Company, Attribute> evaluator = new MatchingEvaluator<>();

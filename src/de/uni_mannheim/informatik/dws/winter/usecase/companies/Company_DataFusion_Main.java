@@ -81,7 +81,7 @@ public class Company_DataFusion_Main {
 	 * 		traceFile:	level TRACE	- console/file
 	 * 		
 	 */
-	private static final Logger logger = WinterLogManager.activateLogger("default");
+	private static final Logger logger = WinterLogManager.activateLogger("trace");
 
 	public static void main(String[] args) throws Exception {
 		// Forbes
