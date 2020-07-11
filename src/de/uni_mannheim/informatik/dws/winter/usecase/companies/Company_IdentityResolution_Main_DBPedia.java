@@ -97,12 +97,12 @@ public class Company_IdentityResolution_Main_DBPedia {
 		LinearCombinationMatchingRule<Company, Attribute> matchingRule = new LinearCombinationMatchingRule<>(0.5);
 
 		// activate logging
-		// matchingRule.activateDebugReport("usecase/company/output/forbes_2_dbpedia_log.csv", 100000, gsTest);
+		 matchingRule.activateDebugReport("usecase/company/output/forbes_2_dbpedia_log.csv", 100000, gsTest);
 
 		// Comparators for linear combination rule
 		//TODO: un-comment any of the following lines to add comparators to the matching rule
-		 matchingRule.addComparator(new CompanyNameComparatorEqual(), 1.0);
-		// matchingRule.addComparator(new CompanyNameComparatorJaccard(), 1.0);
+		// matchingRule.addComparator(new CompanyNameComparatorEqual(), 1.0);
+		 matchingRule.addComparator(new CompanyNameComparatorJaccard(), 1.0);
 		// matchingRule.addComparator(new CompanyNameComparatorLevenshtein(), 1.0);
 		// matchingRule.addComparator(new CompanyNameComparatorLongestTokenEqual(), 1.0);
 
@@ -139,9 +139,9 @@ public class Company_IdentityResolution_Main_DBPedia {
 
 		//TODO: un-comment this part to use a maximum-weight, bipartite matching
 		// Alternative: Create a maximum-weight, bipartite matching
-		// MaximumBipartiteMatchingAlgorithm<Company,Attribute> maxWeight = new MaximumBipartiteMatchingAlgorithm<>(correspondences);
-		// maxWeight.run();
-		// correspondences = maxWeight.getResult();
+		 MaximumBipartiteMatchingAlgorithm<Company,Attribute> maxWeight = new MaximumBipartiteMatchingAlgorithm<>(correspondences);
+		 maxWeight.run();
+		 correspondences = maxWeight.getResult();
 
 		// write the correspondences to the output file
 		new CSVCorrespondenceFormatter().writeCSV(new File("usecase/company/output/forbes_2_dbpedia_correspondences.csv"), correspondences);
