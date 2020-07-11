@@ -73,7 +73,7 @@ public class Company_IdentityResolution_Main_DBPedia {
 	 * 		
 	 */
 
-	private static final Logger logger = WinterLogManager.activateLogger("default");
+	private static final Logger logger = WinterLogManager.activateLogger("trace");
 
 	public static void main(String[] args) throws Exception {	
 		// Load Forbes
@@ -101,7 +101,7 @@ public class Company_IdentityResolution_Main_DBPedia {
 
 		// Comparators for linear combination rule
 		//TODO: un-comment any of the following lines to add comparators to the matching rule
-		// matchingRule.addComparator(new CompanyNameComparatorEqual(), 1.0);
+		 matchingRule.addComparator(new CompanyNameComparatorEqual(), 1.0);
 		// matchingRule.addComparator(new CompanyNameComparatorJaccard(), 1.0);
 		// matchingRule.addComparator(new CompanyNameComparatorLevenshtein(), 1.0);
 		// matchingRule.addComparator(new CompanyNameComparatorLongestTokenEqual(), 1.0);
