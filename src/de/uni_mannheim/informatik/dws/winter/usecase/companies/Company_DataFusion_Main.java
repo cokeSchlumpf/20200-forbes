@@ -132,10 +132,10 @@ public class Company_DataFusion_Main {
 		DataFusionStrategy<Company, Attribute> strategy = new DataFusionStrategy<>(new CompanyXMLReader());
 
 		// activate logging
-		// strategy.activateDebugReport("usecase/company/output/fusion_log.csv", -1, gs);
+		strategy.activateDebugReport("usecase/company/output/fusion_log.csv", -1, gs);
 
 		//TODO: un-comment one of the following lines for each attribute to define the fusion strategy
-		// strategy.addAttributeFuser(Company.NAME, new NameFuserFavourSource(), new NameEvaluationRule());
+		strategy.addAttributeFuser(Company.NAME, new NameFuserFavourSource(), new NameEvaluationRule());
 		// strategy.addAttributeFuser(Company.NAME, new NameFuserLongestString(), new NameEvaluationRule());
 		// strategy.addAttributeFuser(Company.NAME, new NameFuserShortestString(), new NameEvaluationRule());
 		// strategy.addAttributeFuser(Company.NAME, new NameFuserVoting(), new NameEvaluationRule());

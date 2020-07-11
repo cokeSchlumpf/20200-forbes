@@ -45,7 +45,7 @@ public class CompanyNameComparatorJaccard implements Comparator<Company, Attribu
 
 	@Override
 	public double compare(Company entity1, Company entity2, Correspondence<Attribute, Matchable> corr) {
-		double similarity = sim.calculate(entity1.getName(), entity2.getName());
+		double similarity = sim.calculate(entity1.getName().trim().toLowerCase(), entity2.getName().trim().toLowerCase());
 		
 		if(this.comparisonLog != null){
 			this.comparisonLog.setComparatorName(getClass().getName());
