@@ -94,20 +94,15 @@ public class Company_IdentityResolution_Main_FullContact {
 		//TODO: adjust the parameter to define the threshold of the matching rule
 		LinearCombinationMatchingRule<Company, Attribute> matchingRule = new LinearCombinationMatchingRule<>(0.5);
 
-		// activate logging foo bar
-		// matchingRule.activateDebugReport("usecase/company/output/forbes_2_fullcontact_log.csv", 100000, gsTest);
+		// activate logging
+		 matchingRule.activateDebugReport("usecase/company/output/forbes_2_fullcontact_log.csv", 100000, gsTest);
 
 		// Comparators for linear combination rule
 		//TODO: un-comment any of the following lines to add comparators to the matching rule
-<<<<<<< HEAD
-		 matchingRule.addComparator(new CompanyNameComparatorEqual(), 1.0);
-		// matchingRule.addComparator(new CompanyNameComparatorJaccard(), 1.0);
-=======
-		// matchingRule.addComparator(new CompanyNameComparatorEqual(), 1.0);
-		matchingRule.addComparator(new CompanyNameComparatorJaccard(), 1.0);
->>>>>>> 802bd7de02b0054e3661b2c199e8419f39d6384f
-		// matchingRule.addComparator(new CompanyNameComparatorLevenshtein(), 1.0);
-		// matchingRule.addComparator(new CompanyNameComparatorLongestTokenEqual(), 1.0);
+		 //matchingRule.addComparator(new CompanyNameComparatorEqual(), 1.0);
+		// matchingRule.addComparator(new CompanyNameComparatorJaccard(), 0.7);
+		// matchingRule.addComparator(new CompanyNameComparatorLevenshtein(), 0.7);
+		 matchingRule.addComparator(new CompanyNameComparatorLongestTokenEqual(), 0.5);
 
 		// matchingRule.addComparator(new CompanyCountryComparatorEqual(), 1.0);
 		// matchingRule.addComparator(new CompanyCountryComparatorJaccard(), 1.0);
@@ -126,13 +121,8 @@ public class Company_IdentityResolution_Main_FullContact {
 		matchingRule.normalizeWeights();
 
 		// TODO: (un-)comment the following lines to use different blockers
-<<<<<<< HEAD
 		 NoBlocker<Company, Attribute> blocker = new NoBlocker<>();
 		//StandardRecordBlocker<Company, Attribute> blocker = new StandardRecordBlocker<>(new CompanyBlockingKeyByFirstCharGenerator());
-=======
-		NoBlocker<Company, Attribute> blocker = new NoBlocker<>();
-		// StandardRecordBlocker<Company, Attribute> blocker = new StandardRecordBlocker<>(new CompanyBlockingKeyByFirstCharGenerator());
->>>>>>> 802bd7de02b0054e3661b2c199e8419f39d6384f
 		// SortedNeighbourhoodBlocker<Company, Attribute, Attribute> blocker = new SortedNeighbourhoodBlocker<>(new CompanyBlockingKeyByFirstCharGenerator(), 30);
 
 		// Initialize Matching Engine
@@ -143,20 +133,16 @@ public class Company_IdentityResolution_Main_FullContact {
 
 		//TODO: un-comment this part to use top-1 global matching
 		// run top-1 global matching
-		correspondences = engine.getTopKInstanceCorrespondences(correspondences, 1, 0.0);
+		// correspondences = engine.getTopKInstanceCorrespondences(correspondences, 1, 0.0);
 
 		//TODO: un-comment this part to use a maximum-weight, bipartite matching
 		// Alternative: Create a maximum-weight, bipartite matching
-		// MaximumBipartiteMatchingAlgorithm<Company,Attribute> maxWeight = new MaximumBipartiteMatchingAlgorithm<>(correspondences);
-		// maxWeight.run();
-		// correspondences = maxWeight.getResult();
+		 MaximumBipartiteMatchingAlgorithm<Company,Attribute> maxWeight = new MaximumBipartiteMatchingAlgorithm<>(correspondences);
+		 maxWeight.run();
+		 correspondences = maxWeight.getResult();
 
 		// write the correspondences to the output file
-<<<<<<< HEAD
 		new CSVCorrespondenceFormatter().writeCSV(new File("usecase/company/output/forbes_2_fullcontact_correspondences.csv"), correspondences);
-=======
-		new CSVCorrespondenceFormatter().writeCSV(new File("./usecase/company/output/forbes_2_fullcontact_correspondences.csv"), correspondences);
->>>>>>> 802bd7de02b0054e3661b2c199e8419f39d6384f
 
 		// evaluate your result
 		MatchingEvaluator<Company, Attribute> evaluator = new MatchingEvaluator<>();

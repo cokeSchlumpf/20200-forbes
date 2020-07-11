@@ -71,7 +71,7 @@ public class Company_IdentityResolution_Main_FullContact_ML {
 	 * 		traceFile:	level TRACE	- console/file
 	 * 		
 	 */
-	private static final Logger logger = WinterLogManager.activateLogger("default");
+	private static final Logger logger = WinterLogManager.activateLogger("trace");
 
 	public static void main(String[] args) throws Exception {
 		// Load Forbes
@@ -103,13 +103,13 @@ public class Company_IdentityResolution_Main_FullContact_ML {
 		// matchingRule.setForwardSelection(true);
 
 		// activate logging
-		// matchingRule.activateDebugReport("usecase/company/output/forbes_2_fullcontact_log.csv", -1, gsTest);
+		 matchingRule.activateDebugReport("usecase/company/output/forbes_2_fullcontact_log.csv", -1, gsTest);
 
 		// Comparators for machine learning rule
 		//TODO: un-comment any of the following lines to add comparators to the matching rule
 		// matchingRule.addComparator(new CompanyCityComparatorEqual());
 		// matchingRule.addComparator(new CompanyCityComparatorJaccard());
-		// matchingRule.addComparator(new CompanyCityComparatorLevenshtein());
+		 matchingRule.addComparator(new CompanyCityComparatorLevenshtein());
 
 		// matchingRule.addComparator(new CompanyCountryComparatorEqual());
 		// matchingRule.addComparator(new CompanyCountryComparatorJaccard());
