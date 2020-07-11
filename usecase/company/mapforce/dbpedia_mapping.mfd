@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2019r3sp1 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
+	<resources/>
+	<component name="defaultmap" uid="1" editable="1" blackbox="0">
+		<properties SelectedLanguage="builtin"/>
+		<structure>
+			<children>
+				<component name="constant" library="core" uid="31" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="33"/>
+					</targets>
+					<view ltx="233" lty="935" rbx="327" rby="952"/>
+					<data>
+						<constant value="1000000000" datatype="decimal"/>
+					</data>
+				</component>
+				<component name="if-else" library="core" uid="17" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="59"/>
+						<datapoint pos="1" key="26"/>
+						<datapoint pos="2" key="30"/>
+					</sources>
+					<targets>
+						<datapoint/>
+					</targets>
+					<view ltx="734" lty="639" rbx="838" rby="712"/>
+				</component>
+				<component name="constant" library="core" uid="22" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="29"/>
+					</targets>
+					<view ltx="664" lty="739" rbx="704" rby="756"/>
+					<data>
+						<constant value="0" datatype="decimal"/>
+					</data>
+				</component>
+				<component name="numeric" library="lang" uid="19" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="39"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="40"/>
+					</targets>
+					<view ltx="586" lty="639" rbx="662" rby="677"/>
+				</component>
+				<component name="equal-or-greater" library="core" uid="27" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="34"/>
+						<datapoint pos="1" key="32"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="35"/>
+					</targets>
+					<view ltx="320" lty="778" rbx="432" rby="832"/>
+				</component>
+				<component name="string-length" library="core" uid="25" kind="5">
+					<properties/>
+					<sources>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="60"/>
+					</targets>
+					<view ltx="189" lty="639" rbx="284" rby="677"/>
+				</component>
+				<component name="constant" library="core" uid="28" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="31"/>
+					</targets>
+					<view ltx="233" lty="872" rbx="273" rby="889"/>
+					<data>
+						<constant value="9" datatype="decimal"/>
+					</data>
+				</component>
+				<component name="multiply" library="core" uid="30" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint/>
+						<datapoint pos="1" key="37"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="38"/>
+					</targets>
+					<view ltx="350" lty="896" rbx="432" rby="952"/>
+				</component>
+				<component name="if-else" library="core" uid="23" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="41"/>
+						<datapoint/>
+						<datapoint pos="2" key="43"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="44"/>
+					</targets>
+					<view ltx="479" lty="793" rbx="583" rby="866"/>
+				</component>
+				<component name="number" library="core" uid="16" kind="5">
+					<properties/>
+					<sources>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="24"/>
+					</targets>
+					<view ltx="625" lty="536" rbx="692" rby="574"/>
+				</component>
+				<component name="dbpedia" library="xml" uid="4" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="-60" lty="30" rbx="348" rby="421"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="companies" outkey="45" expanded="1">
+										<entry name="company" outkey="12" expanded="1">
+											<entry name="identifier" outkey="8"/>
+											<entry name="name" outkey="4"/>
+											<entry name="countryName" outkey="46"/>
+											<entry name="fyear" outkey="47"/>
+											<entry name="cityName" outkey="17"/>
+											<entry name="revenue" outkey="48"/>
+											<entry name="assets" outkey="25"/>
+											<entry name="industryName" outkey="49"/>
+											<entry name="homepage" outkey="50"/>
+											<entry name="founders" outkey="51" expanded="1"/>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="..\input\dbpedia.xsd" inputinstance="..\input\dbpedia.xml" outputinstance="..\input\dbpedia.xml" instanceroot="{}companies"/>
+					</data>
+				</component>
+				<component name="lowercase" library="lang" uid="9" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="6"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="5"/>
+					</targets>
+					<view ltx="504" lty="76" rbx="583" rby="114"/>
+				</component>
+				<component name="normalize-space" library="core" uid="33" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="62"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="63"/>
+					</targets>
+					<view ltx="645" lty="76" rbx="755" rby="114"/>
+				</component>
+				<component name="lowercase" library="lang" uid="8" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2"/>
+					</targets>
+					<view ltx="504" lty="126" rbx="583" rby="164"/>
+				</component>
+				<component name="normalize-space" library="core" uid="34" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="64"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="65"/>
+					</targets>
+					<view ltx="625" lty="126" rbx="735" rby="164"/>
+				</component>
+				<component name="lowercase" library="lang" uid="13" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="19"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="20"/>
+					</targets>
+					<view ltx="561" lty="204" rbx="640" rby="242"/>
+				</component>
+				<component name="normalize-space" library="core" uid="35" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="66"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="67"/>
+					</targets>
+					<view ltx="679" lty="204" rbx="789" rby="242"/>
+				</component>
+				<component name="lowercase" library="lang" uid="12" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="16"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="15"/>
+					</targets>
+					<view ltx="561" lty="302" rbx="640" rby="340"/>
+				</component>
+				<component name="target_schema" library="xml" uid="5" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="1050" lty="2" rbx="1801" rby="673"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="companies" inpkey="52" expanded="1">
+										<entry name="company" inpkey="11" expanded="1">
+											<entry name="id" inpkey="7"/>
+											<entry name="name" inpkey="3"/>
+											<entry name="website" inpkey="53"/>
+											<entry name="founded" inpkey="54"/>
+											<entry name="country" inpkey="55"/>
+											<entry name="city" inpkey="18"/>
+											<entry name="industry" inpkey="56"/>
+											<entry name="assets" inpkey="61"/>
+											<entry name="revenue" inpkey="57"/>
+											<entry name="keypeople" inpkey="58" expanded="1"/>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="..\mapforce\target_schema.xsd" inputinstance="..\mapforce\target_schema.xml" outputinstance="..\mapforce\target_schema.xml" instanceroot="{}companies"/>
+					</data>
+				</component>
+				<component name="normalize-space" library="core" uid="36" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="69"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="68"/>
+					</targets>
+					<view ltx="695" lty="302" rbx="805" rby="340"/>
+				</component>
+				<component name="lowercase" library="lang" uid="14" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="21"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="22"/>
+					</targets>
+					<view ltx="561" lty="393" rbx="640" rby="431"/>
+				</component>
+				<component name="normalize-space" library="core" uid="37" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="71"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="70"/>
+					</targets>
+					<view ltx="679" lty="393" rbx="789" rby="431"/>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges>
+					<edge edgekey="58">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+				</edges>
+				<vertices>
+					<vertex vertexkey="4">
+						<edges>
+							<edge vertexkey="1"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="65">
+						<edges>
+							<edge vertexkey="3"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="8">
+						<edges>
+							<edge vertexkey="6"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="63">
+						<edges>
+							<edge vertexkey="7"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="12">
+						<edges>
+							<edge vertexkey="11"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="17">
+						<edges>
+							<edge vertexkey="16"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="68">
+						<edges>
+							<edge vertexkey="18"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="46">
+						<edges>
+							<edge vertexkey="19"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="49">
+						<edges>
+							<edge vertexkey="21"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="24">
+						<edges>
+							<edge vertexkey="26"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="29">
+						<edges>
+							<edge vertexkey="30"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="31">
+						<edges>
+							<edge vertexkey="32"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="60">
+						<edges>
+							<edge vertexkey="34"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="33">
+						<edges>
+							<edge vertexkey="37"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="44">
+						<edges>
+							<edge vertexkey="39"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="35">
+						<edges>
+							<edge vertexkey="41"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="38">
+						<edges>
+							<edge vertexkey="43"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="45">
+						<edges>
+							<edge vertexkey="52"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="50">
+						<edges>
+							<edge vertexkey="53"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="47">
+						<edges>
+							<edge vertexkey="54"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="67">
+						<edges>
+							<edge vertexkey="55"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="70">
+						<edges>
+							<edge vertexkey="56"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="48">
+						<edges>
+							<edge vertexkey="57"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="51">
+						<edges>
+							<edge vertexkey="58" edgekey="58"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="40">
+						<edges>
+							<edge vertexkey="59"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="25">
+						<edges>
+							<edge vertexkey="61"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="5">
+						<edges>
+							<edge vertexkey="62"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2">
+						<edges>
+							<edge vertexkey="64"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="20">
+						<edges>
+							<edge vertexkey="66"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="15">
+						<edges>
+							<edge vertexkey="69"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="22">
+						<edges>
+							<edge vertexkey="71"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>
