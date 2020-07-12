@@ -109,10 +109,10 @@ public class Company_IdentityResolution_Main_FullContact_ML {
 		//TODO: un-comment any of the following lines to add comparators to the matching rule
 		// matchingRule.addComparator(new CompanyCityComparatorEqual());
 		// matchingRule.addComparator(new CompanyCityComparatorJaccard());
-		 matchingRule.addComparator(new CompanyCityComparatorLevenshtein());
+		// matchingRule.addComparator(new CompanyCityComparatorLevenshtein());
 
 		// matchingRule.addComparator(new CompanyCountryComparatorEqual());
-		// matchingRule.addComparator(new CompanyCountryComparatorJaccard());
+		 matchingRule.addComparator(new CompanyCountryComparatorJaccard());
 
 		// matchingRule.addComparator(new CompanyFoundedComparator10Years());
 		// matchingRule.addComparator(new CompanyFoundedComparator2Years());
@@ -122,7 +122,7 @@ public class Company_IdentityResolution_Main_FullContact_ML {
 		// matchingRule.addComparator(new CompanyIndustryComparatorLevenshtein());
 		
 		// matchingRule.addComparator(new CompanyNameComparatorEqual());
-		// matchingRule.addComparator(new CompanyNameComparatorJaccard());
+		 matchingRule.addComparator(new CompanyNameComparatorJaccard());
 		// matchingRule.addComparator(new CompanyNameComparatorLevenshtein());
 		// matchingRule.addComparator(new CompanyNameComparatorLongestTokenEqual());
 
@@ -145,13 +145,13 @@ public class Company_IdentityResolution_Main_FullContact_ML {
 
 		//TODO: un-comment this part to use top-1 global matching
 		// run top-1 global matching
-		// correspondences = engine.getTopKInstanceCorrespondences(correspondences, 1, 0.0);
+		 correspondences = engine.getTopKInstanceCorrespondences(correspondences, 1, 0.0);
 
 		//TODO: un-comment this part to use a maximum-weight, bipartite matching
 		// Alternative: Create a maximum-weight, bipartite matching
-		// MaximumBipartiteMatchingAlgorithm<Company,Attribute> maxWeight = new MaximumBipartiteMatchingAlgorithm<>(correspondences);
-		// maxWeight.run();
-		// correspondences = maxWeight.getResult();
+		 MaximumBipartiteMatchingAlgorithm<Company,Attribute> maxWeight = new MaximumBipartiteMatchingAlgorithm<>(correspondences);
+		 maxWeight.run();
+		 correspondences = maxWeight.getResult();
 
 		// write the correspondences to the output file
 		new CSVCorrespondenceFormatter().writeCSV(new File("usecase/company/output/forbes_2_fullcontact_correspondences.csv"), correspondences);

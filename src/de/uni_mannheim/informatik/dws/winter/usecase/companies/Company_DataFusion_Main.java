@@ -88,20 +88,20 @@ public class Company_DataFusion_Main {
 		logger.info("FORBES");
 		FusibleDataSet<Company, Attribute> forbes = new FusibleHashedDataSet<>();
 		CompanyXMLReader xmlReader = new CompanyXMLReader();
-		xmlReader.loadFromXML(new File("usecase/company/mapforce/forbes_target_schema.xml"), "/companies/company", forbes);
+		xmlReader.loadFromXML(new File("usecase/company/mapforce/forbes_target_schema_regular.xml"), "/companies/company", forbes);
 		forbes.printDataSetDensityReport();
 
 		// DBpedia
 		logger.info("DBPEDIA");
 		FusibleDataSet<Company, Attribute> dbpedia = new FusibleHashedDataSet<>();
-		xmlReader.loadFromXML(new File("usecase/company/mapforce/dbpedia_target_schema.xml"),
+		xmlReader.loadFromXML(new File("usecase/company/mapforce/dbpedia_target_schema_regular.xml"),
 				"/companies/company", dbpedia);
 		dbpedia.printDataSetDensityReport();
 
 		// Fullcontact
 		logger.info("FULLCONTACT");
 		FusibleDataSet<Company, Attribute> fullcontact = new FusibleHashedDataSet<>();
-		xmlReader.loadFromXML(new File("usecase/company/mapforce/fullcontact_target_schema.xml"),
+		xmlReader.loadFromXML(new File("usecase/company/mapforce/fullcontact_target_schema_regular.xml"), //fullcontact_target_schema_fusion.xml // orig: usecase/company/mapforce/fullcontact_target_schema.xml
 				"/companies/company", fullcontact);
 		fullcontact.printDataSetDensityReport();
 
@@ -135,35 +135,35 @@ public class Company_DataFusion_Main {
 		// strategy.activateDebugReport("usecase/company/output/fusion_log.csv", -1, gs);
 
 		//TODO: un-comment one of the following lines for each attribute to define the fusion strategy
-		// strategy.addAttributeFuser(Company.NAME, new NameFuserFavourSource(), new NameEvaluationRule());
-		// strategy.addAttributeFuser(Company.NAME, new NameFuserLongestString(), new NameEvaluationRule());
+		 strategy.addAttributeFuser(Company.NAME, new NameFuserFavourSource(), new NameEvaluationRule());
+		// strategy.addAttributeFuser(Company.NAME, new NameFuserLongestString(), new NameEvaluationRule()); //x
 		// strategy.addAttributeFuser(Company.NAME, new NameFuserShortestString(), new NameEvaluationRule());
 		// strategy.addAttributeFuser(Company.NAME, new NameFuserVoting(), new NameEvaluationRule());
 
 		// strategy.addAttributeFuser(Company.ASSETS, new AssetsFuserFavourSource(), new AssetsEvaluationRule());
-		// strategy.addAttributeFuser(Company.ASSETS, new AssetsFuserMax(), new AssetsEvaluationRule());
+		// strategy.addAttributeFuser(Company.ASSETS, new AssetsFuserMax(), new AssetsEvaluationRule()); //x
 		// strategy.addAttributeFuser(Company.ASSETS, new AssetsFuserAverage(), new AssetsEvaluationRule());
-		// strategy.addAttributeFuser(Company.ASSETS, new AssetsFuserMostRecent(), new AssetsEvaluationRule());
+		 strategy.addAttributeFuser(Company.ASSETS, new AssetsFuserMostRecent(), new AssetsEvaluationRule());
 
 		// strategy.addAttributeFuser(Company.REVENUE, new RevenueFuserFavourSource(), new RevenueEvaluationRule());
-		// strategy.addAttributeFuser(Company.REVENUE, new RevenueFuserMax(), new RevenueEvaluationRule());
+		// strategy.addAttributeFuser(Company.REVENUE, new RevenueFuserMax(), new RevenueEvaluationRule()); // x
 		// strategy.addAttributeFuser(Company.REVENUE, new RevenueFuserAverage(), new RevenueEvaluationRule());
-		// strategy.addAttributeFuser(Company.REVENUE, new RevenueFuserMostRecent(), new RevenueEvaluationRule());
+		 strategy.addAttributeFuser(Company.REVENUE, new RevenueFuserMostRecent(), new RevenueEvaluationRule());
 
-		// strategy.addAttributeFuser(Company.KEYPERSONS, new KeyPersonFuserIntersection(), new KeyPersonEvaluationRule());
+		 strategy.addAttributeFuser(Company.KEYPERSONS, new KeyPersonFuserIntersection(), new KeyPersonEvaluationRule()); //x
 		// strategy.addAttributeFuser(Company.KEYPERSONS, new KeyPersonFuserUnion(), new KeyPersonEvaluationRule());
 
 		// strategy.addAttributeFuser(Company.FOUNDED, new FoundedFuserFavourSource(), new FoundedEvaluationRule());
-		// strategy.addAttributeFuser(Company.FOUNDED, new FoundedFuserMostRecent(), new FoundedEvaluationRule());
+		 strategy.addAttributeFuser(Company.FOUNDED, new FoundedFuserMostRecent(), new FoundedEvaluationRule()); //xx
 		// strategy.addAttributeFuser(Company.FOUNDED, new FoundedFuserNewest(), new FoundedEvaluationRule());
 		// strategy.addAttributeFuser(Company.FOUNDED, new FoundedFuserOldest(), new FoundedEvaluationRule());
 
 		// strategy.addAttributeFuser(Company.COUNTRY, new CountryFuserLongestString(), new CountryEvaluationRule());
-		// strategy.addAttributeFuser(Company.COUNTRY, new CountryFuserShortestString(), new CountryEvaluationRule());
-		// strategy.addAttributeFuser(Company.COUNTRY, new CountryFuserVoting(), new CountryEvaluationRule());
+		// strategy.addAttributeFuser(Company.COUNTRY, new CountryFuserShortestString(), new CountryEvaluationRule()); //x
+		 strategy.addAttributeFuser(Company.COUNTRY, new CountryFuserVoting(), new CountryEvaluationRule());
 
 		// strategy.addAttributeFuser(Company.CITY, new CityFuserLongestString(), new CityEvaluationRule());
-		// strategy.addAttributeFuser(Company.CITY, new CityFuserShortestString(), new CityEvaluationRule());
+		 strategy.addAttributeFuser(Company.CITY, new CityFuserShortestString(), new CityEvaluationRule()); //x
 		// strategy.addAttributeFuser(Company.CITY, new CityFuserVoting(), new CityEvaluationRule());
 
 		// create the fusion engine

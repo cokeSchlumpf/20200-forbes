@@ -102,12 +102,12 @@ public class Company_IdentityResolution_Main_DBPedia {
 		// Comparators for linear combination rule
 		//TODO: un-comment any of the following lines to add comparators to the matching rule
 		// matchingRule.addComparator(new CompanyNameComparatorEqual(), 1.0);
-		 matchingRule.addComparator(new CompanyNameComparatorJaccard(), 1.0);
-		// matchingRule.addComparator(new CompanyNameComparatorLevenshtein(), 1.0);
-		// matchingRule.addComparator(new CompanyNameComparatorLongestTokenEqual(), 1.0);
+		 matchingRule.addComparator(new CompanyNameComparatorJaccard(), 1);
+		 //matchingRule.addComparator(new CompanyNameComparatorLevenshtein(), 0.3);
+		 //matchingRule.addComparator(new CompanyNameComparatorLongestTokenEqual(), 0.1);
 
 		// matchingRule.addComparator(new CompanyCountryComparatorEqual(), 1.0);
-		// matchingRule.addComparator(new CompanyCountryComparatorJaccard(), 1.0);
+		// matchingRule.addComparator(new CompanyCountryComparatorJaccard(), 0.3);
 
 		// matchingRule.addComparator(new CompanyFoundedComparator2Years(), 1.0);
 		// matchingRule.addComparator(new CompanyFoundedComparator10Years(), 1.0);
@@ -134,8 +134,8 @@ public class Company_IdentityResolution_Main_DBPedia {
 		Processable<Correspondence<Company, Attribute>> correspondences = engine.runIdentityResolution(forbes, dbpedia, null, matchingRule, blocker);
 
 		//TODO: un-comment this part to use top-1 global matching
-		// run top-1 global matching
-		// correspondences = engine.getTopKInstanceCorrespondences(correspondences, 1, 0.0);
+		 //run top-1 global matching
+		 correspondences = engine.getTopKInstanceCorrespondences(correspondences, 1, 0.0);
 
 		//TODO: un-comment this part to use a maximum-weight, bipartite matching
 		// Alternative: Create a maximum-weight, bipartite matching

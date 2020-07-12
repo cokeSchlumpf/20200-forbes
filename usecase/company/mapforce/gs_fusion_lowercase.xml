@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<companies xsi:noNamespaceSchemaLocation="file:///C:/Users/MikeKamysz/Desktop/20200%20-%20WDI%20-%20Project%20Data%20and%20Code%20-%202020/usecase/company/goldstandard/gs_fusion.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<company>
+		<id>http://www.forbes.com/companies/avago-technologies/</id>
+		<name provenance="fullcontact_122">avago technologies</name>
+		<country provenance="fullcontact_122+fullcontact_885">united states</country>
+		<city provenance="fullcontact_122">san jose</city>
+		<assets provenance="http://www.forbes.com/companies/avago-technologies/">3500000000</assets>
+		<revenue provenance="http://www.forbes.com/companies/avago-technologies/">2700000000</revenue>
+		<founded provenance="">2005-01-01T00:00:00.000+01:00</founded>
+		<keypeople/>
+	</company>
+	<company>
+		<id>http://www.forbes.com/companies/cp-all/</id>
+		<name provenance="http://dbpedia.org/resource/CP_ALL">cp all</name>
+		<country provenance="http://www.forbes.com/companies/cp-all/+http://dbpedia.org/resource/CP_ALL">thailand</country>
+		<city provenance="http://dbpedia.org/resource/CP_ALL">si lom bangkok bang rak district</city>
+		<assets provenance="http://www.forbes.com/companies/cp-all/">8800000000</assets>
+		<revenue provenance="http://www.forbes.com/companies/cp-all/">8900000000</revenue>
+		<founded provenance="">1988-01-01T00:00:00.000+01:00</founded>
+		<keypeople>
+			<name></name>
+			<name>charoen pokphand</name>
+		</keypeople>
+	</company>
+	<company>
+		<id>http://www.forbes.com/companies/vale/</id>
+		<name provenance="http://www.forbes.com/companies/vale/">vale</name>
+		<country provenance="http://www.forbes.com/companies/vale/+fullcontact_783">brazil</country>
+		<city provenance="fullcontact_783">rio de janeiro</city>
+		<assets provenance="http://www.forbes.com/companies/vale/">123700000000</assets>
+		<revenue provenance="http://www.forbes.com/companies/vale/">47600000000</revenue>
+		<keypeople/>
+	</company>
+	<company>
+		<id>http://www.forbes.com/companies/hitachi/</id>
+		<name provenance="fullcontact_382">hitachi</name>
+		<country provenance="http://dbpedia.org/resource/Hitachi+http://www.forbes.com/companies/hitachi/">japan</country>
+		<city provenance="http://dbpedia.org/resource/Hitachi">chiyoda, tokyo</city>
+		<assets provenance="http://www.forbes.com/companies/hitachi/">104700000000</assets>
+		<revenue provenance="http://www.forbes.com/companies/hitachi/">95700000000</revenue>
+		<founded provenance="">1910-01-01T00:00:00.000+01:00</founded>
+		<keypeople>
+			<name></name>
+			<name>namihei odaira</name>
+		</keypeople>
+	</company>
+	<company>
+		<id>http://www.forbes.com/companies/gd-power-development/</id>
+		<name provenance="http://dbpedia.org/resource/GD_Power_Development_Company">gd power development company</name>
+		<country provenance="http://dbpedia.org/resource/GD_Power_Development_Company+http://www.forbes.com/companies/gd-power-development/">china</country>
+		<city provenance="http://dbpedia.org/resource/GD_Power_Development_Company">beijing</city>
+		<assets provenance="http://www.forbes.com/companies/gd-power-development/">40400000000</assets>
+		<revenue provenance="http://www.forbes.com/companies/gd-power-development/">10800000000</revenue>
+		<founded provenance="">1992-01-01T00:00:00.000+01:00</founded>
+		<keypeople/>
+	</company>
+	<company>
+		<id>http://www.forbes.com/companies/inditex/</id>
+		<name provenance="http://www.forbes.com/companies/inditex/">inditex</name>
+		<country provenance="http://dbpedia.org/resource/Inditex+http://www.forbes.com/companies/inditex/">spain</country>
+		<city provenance="http://dbpedia.org/resource/Inditex">arteixo</city>
+		<assets provenance="http://dbpedia.org/resource/Inditex">10950000000</assets>
+		<revenue provenance="http://dbpedia.org/resource/Inditex">13790000000</revenue>
+		<founded provenance="">1985-01-01T00:00:00.000+01:00</founded>
+		<keypeople>
+			<name>rosalia mera</name>
+			<name>amancio ortega gaona</name>
+		</keypeople>
+	</company>
+	<company>
+		<id>http://www.forbes.com/companies/ppg-industries/</id>
+		<name provenance="http://dbpedia.org/resource/PPG_Industries">ppg industries</name>
+		<country provenance="fullcontact_7+http://dbpedia.org/resource/PPG_Industries">united states</country>
+		<city provenance="fullcontact_7">pittsburgh</city>
+		<assets provenance="http://dbpedia.org/resource/PPG_Industries">14240000000</assets>
+		<revenue provenance="http://dbpedia.org/resource/PPG_Industries">15200000000</revenue>
+		<founded provenance="">1883-01-01T00:00:00.000+00:53</founded>
+		<keypeople>
+			<name>john baptiste ford</name>
+			<name>john pitcairn</name>
+		</keypeople>
+	</company>
+	<company>
+		<id>http://www.forbes.com/companies/china-shenhua-energy/</id>
+		<name provenance="http://dbpedia.org/resource/China_Shenhua_Energy_Company">china shenhua energy company</name>
+		<name provenance=""></name>
+		<country provenance="http://dbpedia.org/resource/China_Shenhua_Energy_Company+http://www.forbes.com/companies/china-shenhua-energy/">china</country>
+		<city provenance="http://dbpedia.org/resource/China_Shenhua_Energy_Company">beijing</city>
+		<assets provenance="http://www.forbes.com/companies/china-shenhua-energy/">80400000000</assets>
+		<revenue provenance="http://www.forbes.com/companies/china-shenhua-energy/">42800000000</revenue>
+		<founded provenance="">1995-01-01T00:00:00.000+01:00</founded>
+		<keypeople/>
+	</company>
+	<company>
+		<id>http://www.forbes.com/companies/larsen-toubro/</id>
+		<name provenance="http://dbpedia.org/resource/Larsen_&amp;_Toubro">larsen &amp; toubro</name>
+		<name provenance=""></name>
+		<country provenance="http://www.forbes.com/companies/larsen-toubro/+http://dbpedia.org/resource/Larsen_&amp;_Toubro">india</country>
+		<city provenance="http://dbpedia.org/resource/Larsen_&amp;_Toubro">ballard estatemumbaimaharashtra</city>
+		<assets provenance="http://www.forbes.com/companies/larsen-toubro/">26700000000</assets>
+		<revenue provenance="http://dbpedia.org/resource/Larsen_&amp;_Toubro">136000000000</revenue>
+		<founded provenance="">1938-01-01T00:00:00.000+01:00</founded>
+		<keypeople>
+			<name></name>
+			<name>henning holck-larsen</name>
+			<name>soren kristian toubro</name>
+		</keypeople>
+	</company>
+	<company>
+		<id>http://www.forbes.com/companies/sherwin-williams/</id>
+		<name provenance="fullcontact_663">sherwin-williams</name>
+		<name provenance=""></name>
+		<country provenance="fullcontact_663+http://dbpedia.org/resource/Sherwin-Williams">united states</country>
+		<city provenance="fullcontact_663">cleveland</city>
+		<assets provenance="http://dbpedia.org/resource/Sherwin-Williams">6382000000</assets>
+		<revenue provenance="http://dbpedia.org/resource/Sherwin-Williams">10180000000</revenue>
+		<founded provenance="">1866-01-01T00:00:00.000+00:53</founded>
+		<keypeople>
+			<name>henry sherwin</name>
+			<name>edward williams</name>
+		</keypeople>
+	</company>
+	<company>
+		<id>http://www.forbes.com/companies/sistema/</id>
+		<name provenance="fullcontact_678">sistema</name>
+		<country provenance="http://www.forbes.com/companies/sistema/">russia</country>
+		<city provenance="fullcontact_678">moscow</city>
+		<assets provenance="http://www.forbes.com/companies/sistema/">44400000000</assets>
+		<revenue provenance="http://www.forbes.com/companies/sistema/">35500000000</revenue>
+		<founded provenance="">1993-01-01T00:00:00.000+01:00</founded>
+		<keypeople/>
+	</company>
+	<company>
+		<id>http://www.forbes.com/companies/hewlett-packard/</id>
+		<name provenance="fullcontact_389">hewlett-packard</name>
+		<country provenance="http://dbpedia.org/resource/Hewlett-Packard+fullcontact_389">united states</country>
+		<city provenance="fullcontact_389">palo alto</city>
+		<assets provenance="http://dbpedia.org/resource/Hewlett-Packard">105676000000</assets>
+		<revenue provenance="http://www.forbes.com/companies/hewlett-packard/">112100000000</revenue>
+		<founded provenance="">1939-01-01T00:00:00.000+01:00</founded>
+		<keypeople>
+			<name></name>
+			<name>david packard</name>
+			<name>william hewlett</name>
+		</keypeople>
+	</company>
+	<company>
+		<id>http://www.forbes.com/companies/china-communications-services/</id>
+		<name provenance="http://dbpedia.org/resource/China_Communications_Services_Corporation">china communications services corporation</name>
+		<name provenance=""></name>
+		<country provenance="http://www.forbes.com/companies/china-communications-services/+http://dbpedia.org/resource/China_Communications_Services_Corporation">china</country>
+		<city provenance="http://dbpedia.org/resource/China_Communications_Services_Corporation">beijingchina</city>
+		<assets provenance="http://www.forbes.com/companies/china-communications-services/">9200000000</assets>
+		<revenue provenance="http://www.forbes.com/companies/china-communications-services/">13500000000</revenue>
+		<founded provenance="">2006-01-01T00:00:00.000+01:00</founded>
+		<keypeople/>
+	</company>
+	<company>
+		<id>http://www.forbes.com/companies/swatch-group/</id>
+		<name provenance="fullcontact_709">swatch group</name>
+		<name provenance=""></name>
+		<country provenance="fullcontact_709+http://www.forbes.com/companies/swatch-group/">switzerland</country>
+		<city provenance="fullcontact_709">biel</city>
+		<assets provenance="http://www.forbes.com/companies/swatch-group/">11300000000</assets>
+		<revenue provenance="http://www.forbes.com/companies/swatch-group/">9100000000</revenue>
+		<keypeople>
+			<name></name>
+			<name>nicolas g. hayek</name>
+		</keypeople>
+	</company>
+	<company>
+		<id>http://www.forbes.com/companies/abu-dhabi-commercial/</id>
+		<name provenance="http://www.forbes.com/companies/abu-dhabi-commercial/">abu dhabi commercial bank</name>
+		<name provenance=""></name>
+		<country provenance="http://www.forbes.com/companies/abu-dhabi-commercial/+http://dbpedia.org/resource/Abu_Dhabi_Commercial_Bank">united arab emirates</country>
+		<city provenance="http://dbpedia.org/resource/Abu_Dhabi_Commercial_Bank">abu dhabi</city>
+		<assets provenance="http://www.forbes.com/companies/abu-dhabi-commercial/">49900000000</assets>
+		<revenue provenance="http://www.forbes.com/companies/abu-dhabi-commercial/">2500000000</revenue>
+		<founded provenance="">1985-01-01T00:00:00.000+01:00</founded>
+		<keypeople/>
+	</company>
+	<company>
+		<id>http://www.forbes.com/companies/l-3-communications/</id>
+		<name provenance="http://dbpedia.org/resource/L-3_Communications">l-3 communications</name>
+		<name provenance=""></name>
+		<country provenance="http://dbpedia.org/resource/L-3_Communications">united states</country>
+		<city provenance="http://dbpedia.org/resource/L-3_Communications">new york</city>
+		<assets provenance="http://dbpedia.org/resource/L-3_Communications">14000000000</assets>
+		<revenue provenance="http://dbpedia.org/resource/L-3_Communications">12600000000</revenue>
+		<founded provenance="">1997-01-01T00:00:00.000+01:00</founded>
+		<keypeople/>
+	</company>
+	<company>
+		<id>http://www.forbes.com/companies/wells-fargo/</id>
+		<name provenance="http://dbpedia.org/resource/Wells_Fargo">wells fargo</name>
+		<name provenance=""></name>
+		<country provenance="http://dbpedia.org/resource/Wells_Fargo+fullcontact_812">united states</country>
+		<city provenance="fullcontact_812">grafton</city>
+		<assets provenance="http://dbpedia.org/resource/Wells_Fargo">1527000000000</assets>
+		<revenue provenance="http://dbpedia.org/resource/Wells_Fargo">83780000000</revenue>
+		<founded provenance="">1852-01-01T00:00:00.000+00:53</founded>
+		<keypeople>
+			<name></name>
+			<name>william fargo</name>
+			<name>henry wells</name>
+		</keypeople>
+	</company>
+	<company>
+		<id>http://www.forbes.com/companies/israel-discount-bank/</id>
+		<name provenance="http://dbpedia.org/resource/Israel_Discount_Bank">israel discount bank</name>
+		<name provenance=""></name>
+		<country provenance="http://dbpedia.org/resource/Israel_Discount_Bank+http://www.forbes.com/companies/israel-discount-bank/">israel</country>
+		<city provenance="http://dbpedia.org/resource/Israel_Discount_Bank">tel aviv</city>
+		<assets provenance="http://www.forbes.com/companies/israel-discount-bank/">57800000000</assets>
+		<revenue provenance="http://dbpedia.org/resource/Israel_Discount_Bank">4000000</revenue>
+		<founded provenance="">1935-01-01T00:00:00.000+01:00</founded>
+		<keypeople/>
+	</company>
+</companies>

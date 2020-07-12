@@ -113,7 +113,7 @@ public class Company_IdentityResolution_Main_DBPedia_ML {
 		// matchingRule.addComparator(new CompanyCityComparatorLevenshtein());
 
 		// matchingRule.addComparator(new CompanyCountryComparatorEqual());
-		// matchingRule.addComparator(new CompanyCountryComparatorJaccard());
+		 matchingRule.addComparator(new CompanyCountryComparatorJaccard());
 
 		// matchingRule.addComparator(new CompanyFoundedComparator10Years());
 		// matchingRule.addComparator(new CompanyFoundedComparator2Years());
@@ -123,7 +123,7 @@ public class Company_IdentityResolution_Main_DBPedia_ML {
 		// matchingRule.addComparator(new CompanyIndustryComparatorLevenshtein());
 		
 		// matchingRule.addComparator(new CompanyNameComparatorEqual());
-		// matchingRule.addComparator(new CompanyNameComparatorJaccard());
+		 matchingRule.addComparator(new CompanyNameComparatorJaccard());
 		// matchingRule.addComparator(new CompanyNameComparatorLevenshtein());
 		// matchingRule.addComparator(new CompanyNameComparatorLongestTokenEqual());
 
